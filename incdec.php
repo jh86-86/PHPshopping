@@ -6,12 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-        //string
 
-        //array
-        $names =array("John","Tommy","Jason");
-        echo $names['0'];//how to print specific name at ana rray
+    <?php
+
+        $x=10;
+        echo $x;
+
+
     ?>
+    
 </body>
 </html>
