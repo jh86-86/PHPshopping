@@ -7,20 +7,18 @@
 </head>
 <body>
 
+<?php
 
-    <?php
-        $x=10;
-        $y=20;
+    echo $GET['name'];
 
-        if($x == $y or 1==1){
-            echo "true";
-        }
+?>
 
-        if($x ==$y and 1==1){
-            echo "true";
-        }
+    <form method="GET">
+        <input type="hidden" name="name" value="daniel">
+        <button type="submit">Press me</button>
+    </form>
 
-    ?>
-    
+
+
 </body>
 </html>
